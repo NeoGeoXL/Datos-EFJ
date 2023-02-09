@@ -30,5 +30,5 @@ sort_data = data_processing.sort_columns(data_with_final_label)
 
 #data_with_etnics = data_processing.add_merge_data_etnics(sort_data,data_etnics)
 
-sort_data.to_csv('./output data/aprobados_limpios.csv',index=False)
+sort_data.to_csv('.\output data\aprobados_limpios.csv',index=False)
 
