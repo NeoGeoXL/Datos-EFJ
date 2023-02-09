@@ -7,7 +7,7 @@ import pathlib
 
 
 def get_data():
-    data=pd.read_csv(r'./data/aprobados_crudos.csv', delimiter=',', error_bad_lines=False,encoding='latin-1') 
+    data=pd.read_csv(r'.\data\aprobados_crudos.csv', delimiter=',', error_bad_lines=False,encoding='latin-1') 
     data['documentoIdentificacion']=data['documentoIdentificacion'].astype('object')
     return data
 
